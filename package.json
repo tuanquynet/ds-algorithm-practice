@@ -1,0 +1,31 @@
+{
+  "name": "js-fundamental",
+  "version": "1.0.0",
+  "description": "Collection of sample of core concepts of JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "preview": "gitbook serve --open",
+    "pdf": "gitbook pdf ./ ./exports/js-fundamental.pdf",
+    "deploy": "sh deploy.sh",
+    "test": "mocha --exit docs/sample-code/test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tuanquynet/javascript-fundamentals.git"
+  },
+  "keywords": [
+    "gitbook",
+    "javascript",
+    "documentation",
+    "docs"
+  ],
+  "author": "Quy Tran",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2"
+  }
+}
