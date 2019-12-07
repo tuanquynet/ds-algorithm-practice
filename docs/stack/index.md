@@ -35,5 +35,12 @@ class Stack {
   }
 }
 ```
-Conclusion:
+## Exercises:
+- Use stack to check arithmetic expression has balanced parentheses
+- Use stack to implement logic convert number to other base (such as base 2, base 8)
+
+## Conclusion:
 - Stack is LIFO list
+
+## Use cases:
+- Error stack trace in JavaScript
