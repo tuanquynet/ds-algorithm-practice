@@ -56,4 +56,23 @@ describe('Double Linked List', function() {
     node = doublyLinkedList.insert(10);
     expect(node.value).to.equal(10);
   });
+
+  it('DoublyLinkedList::clear', async function() {
+    const doublyLinkedList = new DoublyLinkedList();
+    doublyLinkedList.insert(1);
+    doublyLinkedList.insert(2, 1);
+    doublyLinkedList.clear();
+
+    let node = doublyLinkedList.find(2);
+    expect(node).to.equal(null);
+  });
+
+  it('DoublyLinkedList::count', async function() {
+    const doublyLinkedList = new DoublyLinkedList();
+    doublyLinkedList.insert(1);
+    expect(doublyLinkedList.count()).to.equal(1);
+
+    doublyLinkedList.insert(2);
+    expect(doublyLinkedList.count()).to.equal(2);
+  });
 });

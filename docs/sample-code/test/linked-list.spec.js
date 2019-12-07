@@ -47,4 +47,22 @@ describe('Linked List', function() {
     node = linkedList.insert(10);
     expect(node.value).to.equal(10);
   });
+
+  it('LinkedList::clear', async function() {
+    const linkedList = new LinkedList();
+    linkedList.insert(1);
+    linkedList.clear();
+
+    let node = linkedList.find(1);
+    expect(node).to.equal(null);
+  });
+
+  it('LinkedList::count', async function() {
+    const linkedList = new LinkedList();
+    linkedList.insert(1);
+    expect(linkedList.count()).to.equal(1);
+
+    linkedList.insert(2);
+    expect(linkedList.count()).to.equal(2);
+  });
 });

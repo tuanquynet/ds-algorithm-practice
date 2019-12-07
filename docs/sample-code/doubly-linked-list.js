@@ -62,6 +62,21 @@ class DoublyLinkedList {
 
     return current;
   }
+
+  clear(item) {
+    this.head.next = null;
+  }
+
+  count() {
+    let count = 0;
+    let current = this.head;
+    while (current && current.next) {
+      count++;
+      current = current.next;
+    }
+
+    return count;
+  }
 }
 
 module.exports = DoublyLinkedList;

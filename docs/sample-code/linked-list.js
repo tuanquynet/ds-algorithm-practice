@@ -50,6 +50,10 @@ class LinkedList {
 
   remove(item) {
     const prev = this.findPrevious(item);
+    if (!prev) {
+      return null;
+    }
+
     if (prev.next) {
       prev.next = (prev.next).next;
     }
@@ -59,6 +63,17 @@ class LinkedList {
 
   clear() {
     this.head.next = null;
+  }
+
+  count() {
+    let count = 0;
+    let current = this.head;
+    while (current && current.next) {
+      count++;
+      current = current.next;
+    }
+
+    return count;
   }
 }
 
