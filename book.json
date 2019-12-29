@@ -1,10 +1,21 @@
 {
-    "plugins": ["prism", "-highlight", "js-console@git+https://github.com/tuanquynet/gitbook-plugin-js-console.git", "addcssjs"],
+    "plugins": [
+      "prism", "-highlight",
+      "js-console@git+https://github.com/tuanquynet/gitbook-plugin-js-console.git",
+      "addcssjs",
+      "include-codeblock",
+      "ace"
+    ],
     "pluginsConfig": {
         "prism": {
             "css": ["prismjs/themes/prism-okaidia.css"]
         },
-        "addcssjs": { }
+        "addcssjs": { },
+        "include-codeblock": {
+          "template": "ace",
+          "unindent": true,
+          "theme": "monokai"
+        }
     },
     "root": "./docs"
 }

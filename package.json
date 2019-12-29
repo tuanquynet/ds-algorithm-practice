@@ -4,11 +4,12 @@
   "description": "Collection of sample of core concepts of JavaScript",
   "main": "index.js",
   "scripts": {
+    "gitbook-install": "gitbook install",
     "build": "gitbook build",
     "preview": "gitbook serve --open",
     "pdf": "gitbook pdf ./ ./exports/js-fundamental.pdf",
     "deploy": "sh deploy.sh",
-    "test": "mocha --exit docs/sample-code/test/**/*.spec.js"
+    "test": "mocha --exit docs/sample-code/test/**/hash-separated-chaining.spec.js"
   },
   "repository": {
     "type": "git",
