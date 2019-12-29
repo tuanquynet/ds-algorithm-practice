@@ -24,9 +24,9 @@ class SimpleHash {
 
   betterHash(key) {
     const H = 37;
-    var total = 0;
+    let total = 0;
 
-    for (var i = 0; i < key.length; ++i) {
+    for (let i = 0; i < key.length; ++i) {
       total += (H * total) + key.charCodeAt(i);
     }
 
