@@ -221,7 +221,7 @@ module.exports = {
     "wrap-iife": "error",
     "wrap-regex": "off",
     "yield-star-spacing": "error",
-    yoda: ["error", "never"]
+    yoda: "off"
   },
   parserOptions: {
     ecmaVersion: "2017",

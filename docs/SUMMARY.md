@@ -7,3 +7,4 @@
 * [Hashing](hash/index.md)
 * [Linear Search](linear-search/index.md)
 * [Binary Search](binary-search/index.md)
+* [Binary Search Tree](binary-search-tree/index.md)
