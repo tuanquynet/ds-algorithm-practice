@@ -4,7 +4,8 @@
       "js-console@git+https://github.com/tuanquynet/gitbook-plugin-js-console.git",
       "addcssjs",
       "include-codeblock",
-      "ace"
+      "ace",
+      "disqus"
     ],
     "pluginsConfig": {
         "prism": {
@@ -15,6 +16,9 @@
           "template": "ace",
           "unindent": true,
           "theme": "monokai"
+        },
+        "disqus": {
+          "shortName": "learn-datastructure"
         }
     },
     "root": "./docs"
