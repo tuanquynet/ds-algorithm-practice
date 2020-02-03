@@ -1,5 +1,5 @@
 {
-  "name": "js-fundamental",
+  "name": "data-structure-and-algorithm",
   "version": "1.0.0",
   "description": "Collection of sample of core concepts of JavaScript",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "gitbook-install": "gitbook install",
     "build": "gitbook build",
     "preview": "gitbook serve --open",
-    "pdf": "gitbook pdf ./ ./exports/js-fundamental.pdf",
+    "pdf": "gitbook pdf ./ ./exports/js-data-structure-and-algorithm.pdf",
     "deploy": "sh deploy.sh",
     "test": "mocha --exit docs/sample-code/test/**/binary-search-tree.spec.js"
   },
