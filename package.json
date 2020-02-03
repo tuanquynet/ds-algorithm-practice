@@ -1,0 +1,32 @@
+{
+  "name": "data-structure-and-algorithm",
+  "version": "1.0.0",
+  "description": "Implementation of essential data structure and algorithm in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "gitbook-install": "gitbook install",
+    "build": "gitbook build",
+    "preview": "gitbook serve --open",
+    "pdf": "gitbook pdf ./ ./exports/js-data-structure-and-algorithm.pdf",
+    "deploy": "sh deploy.sh",
+    "test": "mocha --exit docs/sample-code/test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tuanquynet/javascript-fundamentals.git"
+  },
+  "keywords": [
+    "gitbook",
+    "javascript",
+    "documentation",
+    "docs"
+  ],
+  "author": "Quy Tran",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2"
+  }
+}
