@@ -1,7 +1,7 @@
 {
   "name": "data-structure-and-algorithm",
   "version": "1.0.0",
-  "description": "Collection of sample of core concepts of JavaScript",
+  "description": "Implementation of essential data structure and algorithm in JavaScript",
   "main": "index.js",
   "scripts": {
     "gitbook-install": "gitbook install",
@@ -9,7 +9,7 @@
     "preview": "gitbook serve --open",
     "pdf": "gitbook pdf ./ ./exports/js-data-structure-and-algorithm.pdf",
     "deploy": "sh deploy.sh",
-    "test": "mocha --exit docs/sample-code/test/**/binary-search-tree.spec.js"
+    "test": "mocha --exit docs/sample-code/test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
