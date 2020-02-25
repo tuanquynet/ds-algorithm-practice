@@ -26,8 +26,11 @@
   "license": "MIT",
   "dependencies": {
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-ace": "^0.3.2",
     "gitbook-plugin-addcssjs": "^1.0.2",
     "gitbook-plugin-disqus": "^0.1.0",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-include-codeblock": "^3.2.2",
     "gitbook-plugin-js-console": "git+https://github.com/tuanquynet/gitbook-plugin-js-console.git",
     "gitbook-plugin-prism": "^2.4.0"
   },

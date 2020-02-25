@@ -5,7 +5,8 @@
       "addcssjs",
       "include-codeblock",
       "ace",
-      "disqus"
+      "disqus",
+      "ga"
     ],
     "pluginsConfig": {
         "prism": {
@@ -19,7 +20,14 @@
         },
         "disqus": {
           "shortName": "learn-datastructure"
-        }
+        },
+        "ga": {
+          "token": "UA-159057782-1",
+          "configuration": {
+              "cookieName": "learn_datastructure",
+              "cookieDomain": "learn-datastructure.tuanquynet.click"
+          }
+      }
     },
     "root": "./docs"
 }
